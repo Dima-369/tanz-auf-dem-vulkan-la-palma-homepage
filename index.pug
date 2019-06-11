@@ -1,0 +1,103 @@
+doctype html
+head(lang="de")
+    title Ulrike Kuhlmann - Tanz auf dem Vulkan La Palma
+    include includes/head
+    link(href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css" rel="stylesheet")
+    script(src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js")
+body.is-preload
+    #header
+        h1 Natur Seele Kunst
+        p Retreats, Workshops, Kunst leben auf La Palma
+    ul.tabs.primary-nav.homeNav
+        li.tabs_item
+            a.tabs_link.activeTab(href="index.html") Home
+    ul.tabs.primary-nav
+        li.tabs_item
+            a.tabs_link(href="workshopangebote.html") Workshopangebote
+        li.tabs_item
+            a.tabs_link(href="retreats-in-der-natur.html") Retreats in der Natur
+        li.tabs_item
+            a.tabs_link(href="systematische-aufstellungen.html") Systematische Aufstellungen
+        li.tabs_item
+            a.tabs_link(href="ayurvedische-ölungen-amnanda-therapie.html") Ayurvedische Ölungen - AMNANDA Therapie
+        li.tabs_item
+            a.tabs_link(href="kunsttherapeutische-begleitung.html") Individuelle kunsttherapeutische Begleitung
+    #main
+        .box.alt.container
+            section.feature.left
+                a.image(data-fancybox data-caption="titel" href="img/ulrike-kuhlmann1.jpg")
+                    img(src='img/ulrike-kuhlmann1.jpg' alt="Ulrike Kuhlmann")
+                .content
+                    h3 Maresh Ulrike kuhlmann, geb. 1958
+                    p
+                        | Ergotherapeutin, Kunst- und körperorientierte
+                        | Ausdruckstherapeutin, Craniosacrale Arbeit, Systemischen
+                        | Aufstellungen, Channelingsessions, Authentic Movement, Begleitung
+                        | von Retreats auf La Palma
+            section.feature.right
+                a.image(data-fancybox href="img/ulrike-kuhlmann2.jpg")
+                    img(src='img/ulrike-kuhlmann2.jpg' alt="Ulrike Kuhlmann")
+                .content
+                    h3
+                        | Persönliches über Mich <br>
+                        | ich lebe Innere Freiheit
+                    p - Empathie und Lebensfreude
+                    p - Kreativer Ausdruck
+                    p - Verwurzelt in der wilden Natur La Palmas
+            section.feature.left.largeLastFeature
+                a.image.compensate-for-scrollbar(data-fancybox href="img/placeholder/1.jpg")
+                    img(src='img/placeholder/1.jpg')
+                .content
+                    h3 Kunst-Seele-Natur
+                    p Retreat
+                    p Retreat - Individuelle Möglichkeiten finden
+                    p Und das Wesentliche entdecken
+                    p Kraftplätze erleben
+                    p Visionssuche mit Natur-Elementen
+                    table.featureTable
+                        tr
+                            td FEUER
+                            td.tableLeftPadding Vulkane
+                        tr
+                            td WASSER
+                            td.tableLeftPadding Atlantik, Naturbecken
+                        tr
+                            td.min LUFT
+                            td.tableLeftPadding Äther, Shamanic Journey, Innenweltreise
+                        tr
+                            td ERDE
+                            td.tableLeftPadding Höhlen, Barrancos, Fels
+        footer.major.container.medium.fullWidth
+            h3 Meine Kunstobjekte
+            #gallery
+                a(href="img/placeholder/1.jpg" data-fancybox="gallery" data-caption="titel")
+                    img(alt='titel' src="img/placeholder/1.jpg")
+
+                a(href="img/placeholder/2.jpg" data-fancybox="gallery")
+                    img(src="img/placeholder/2.jpg")
+
+                a(href="img/placeholder/3.jpg" data-fancybox="gallery")
+                    img(src="img/placeholder/3.jpg")
+
+                a(href="img/placeholder/4.jpg" data-fancybox="gallery")
+                    img(src="img/placeholder/4.jpg")
+
+                a(href="img/placeholder/5.jpg" data-fancybox="gallery")
+                    img(src="img/placeholder/5.jpg")
+
+                a(href="img/placeholder/6.jpg" data-fancybox="gallery")
+                    img(src="img/placeholder/6.jpg")
+
+                a(href="img/placeholder/7.jpg" data-fancybox="gallery")
+                    img(src="img/placeholder/7.jpg")
+
+                a(href="img/placeholder/8.jpg" data-fancybox="gallery")
+                    img(src="img/placeholder/8.jpg")
+
+                a(href="img/placeholder/9.jpg" data-fancybox="gallery")
+                    img(src="img/placeholder/9.jpg")
+    include includes/footer
+
+script(src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js")
+script(src="js/init-gallery.js")

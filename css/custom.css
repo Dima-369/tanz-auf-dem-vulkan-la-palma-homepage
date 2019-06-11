@@ -1,0 +1,138 @@
+#main:before {
+	content: none;
+}
+
+#main {
+	padding-bottom: 2em;
+}
+
+#header {
+	/*
+	The overlay.png is required, otherwise the header won't be scaled correctly.
+	The image was cleared to a pure transparent image.
+	*/
+	background-image: url("../directive-template/css/images/top-3200.svg"),
+	url("../directive-template/css/images/overlay.png"),
+	url("../img/header-index.jpg");
+}
+
+.headerAmnanda {
+	background-image: url("../directive-template/css/images/top-3200.svg"),
+	url("../directive-template/css/images/overlay.png"),
+	url("../img/header-amnanda.jpeg") !important;
+}
+
+.headerNaturRetreats {
+	background-image: url("../directive-template/css/images/top-3200.svg"),
+	url("../directive-template/css/images/overlay.png"),
+	url("../img/header-retreats-in-die-natur.jpeg") !important;
+}
+
+.headerAufstellungen {
+	background-image: url("../directive-template/css/images/top-3200.svg"),
+	url("../directive-template/css/images/overlay.png"),
+	url("../img/header-systemische-aufstellungen.jpeg") !important;
+}
+
+.headerWorkshops {
+	background-image: url("../directive-template/css/images/top-3200.svg"),
+	url("../directive-template/css/images/overlay.png"),
+	url("../img/header-workshop-angebote.jpeg") !important;
+}
+
+.headerKunst {
+	background-image: url("../directive-template/css/images/top-3200.svg"),
+	url("../directive-template/css/images/overlay.png"),
+	url("../img/header-kunsttherapie.jpeg") !important;
+}
+
+#header h1 {
+	word-break: break-word;
+}
+
+#footer {
+	padding: 3em 0 2em 0;
+	background-image: none;
+	margin-top: 0;
+}
+
+#footer:before {
+	content: none;
+}
+
+footer.major {
+	border: 0;
+}
+
+footer.major:before, footer.major:after {
+	content: none;
+}
+
+header.major {
+	border: 0;
+	padding: 0;
+}
+
+header.major:before {
+	content: none;
+}
+
+.image:after {
+	content: none;
+}
+
+.fullWidth {
+	width: 100% !important;
+}
+
+.feature .content {
+	padding-top: 1.5em;
+}
+
+.feature .content h3 {
+	line-height: 1.25em;
+	margin-bottom: 1.5em;
+}
+
+.tableLeftPadding {
+	padding-left: 1em;
+}
+
+.tabs_link {
+	border: 0 !important;
+}
+
+table {
+	width: initial;
+	margin: 0 auto !important;
+}
+
+table td {
+	text-align: left;
+}
+
+@media screen and (min-width: 736px) {
+	.feature.right .content {
+		text-align: left;
+	}
+
+	.largeLastFeature {
+		height: 32em;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.rowNoMobileTopPadding {
+		padding-top: 1em;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+	#header {
+		padding-top: 14em;
+	}
+
+	#header h1 {
+		font-size: 3em;
+	}
+}
