@@ -10,5 +10,5 @@ Homepage by the German artist Ulrike Kuhlmann.
 
 #### HTML template
 
-The homepage is based on the `Directive` template by HTML5 UP at html5up.net.
+The homepage is based on the `Directive` template by HTML5 UP at www.html5up.net.
 Lots of things were removed to slim down the (surprisingly) large template.
