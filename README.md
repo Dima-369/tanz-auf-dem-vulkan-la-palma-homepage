@@ -1,4 +1,4 @@
-# TODO: Add docs header image for nicer view
+![Image of demo website](docs/header.png?raw=true)
 
 Homepage by the German artist Ulrike Kuhlmann.
 
