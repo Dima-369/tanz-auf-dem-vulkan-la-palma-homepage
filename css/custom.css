@@ -14,36 +14,42 @@
 	background-image: url("../directive-template/css/images/top-3200.svg"),
 	url("../directive-template/css/images/overlay.png"),
 	url("../img/header-index.jpg");
+	background-color: #5575b9;
 }
 
 .headerAmnanda {
 	background-image: url("../directive-template/css/images/top-3200.svg"),
 	url("../directive-template/css/images/overlay.png"),
 	url("../img/header-amnanda.jpeg") !important;
+	background-color: #5575b9;
 }
 
 .headerNaturRetreats {
 	background-image: url("../directive-template/css/images/top-3200.svg"),
 	url("../directive-template/css/images/overlay.png"),
-	url("../img/header-retreats-in-die-natur.jpeg") !important;
+	url("../img/header-retreats.jpg") !important;
+	background-color: #5575b9;
 }
 
 .headerAufstellungen {
 	background-image: url("../directive-template/css/images/top-3200.svg"),
 	url("../directive-template/css/images/overlay.png"),
 	url("../img/header-systemische-aufstellungen.jpeg") !important;
+	background-color: #5575b9;
 }
 
 .headerWorkshops {
 	background-image: url("../directive-template/css/images/top-3200.svg"),
 	url("../directive-template/css/images/overlay.png"),
-	url("../img/header-workshop-angebote.jpeg") !important;
+	url("../img/header-workshop.jpg") !important;
+	background-color: #5575b9;
 }
 
 .headerKunst {
 	background-image: url("../directive-template/css/images/top-3200.svg"),
 	url("../directive-template/css/images/overlay.png"),
 	url("../img/header-kunsttherapie.jpeg") !important;
+	background-color: #5575b9;
 }
 
 #header h1 {
@@ -51,7 +57,7 @@
 }
 
 #footer {
-	padding: 3em 0 2em 0;
+	padding: 3em 0 1em 0;
 	background-image: none;
 	margin-top: 0;
 }
@@ -102,6 +108,18 @@ header.major:before {
 	border: 0 !important;
 }
 
+.topPMargin {
+	margin-top: 4.5em;
+}
+
+.largeMarginTop {
+	margin-top: 6em;
+}
+
+.defaultList {
+	list-style: initial;
+}
+
 table {
 	width: initial;
 	margin: 0 auto !important;
@@ -111,13 +129,21 @@ table td {
 	text-align: left;
 }
 
-@media screen and (min-width: 736px) {
+input[type="submit"], input[type="reset"], input[type="button"], .button {
+	letter-spacing: 0.025em;
+}
+
+@media screen and (min-width: 737px) {
 	.feature.right .content {
 		text-align: left;
 	}
 
 	.largeLastFeature {
-		height: 32em;
+		height: 29em;
+	}
+
+	.featureHeight22 {
+		height: 22em;
 	}
 }
 

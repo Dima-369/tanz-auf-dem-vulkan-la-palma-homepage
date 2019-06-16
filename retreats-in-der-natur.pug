@@ -2,9 +2,12 @@ doctype html
 head(lang="de")
     title Retreats in der Natur - Tanz auf dem Vulkan La Palma
     include includes/head
+    link(href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css" rel="stylesheet")
 body.is-preload
     #header.headerNaturRetreats
         h1 Retreats in der Natur
+        p Mit den Naturkräften in Kontakt kommen
     ul.tabs.primary-nav.homeNav
         li.tabs_item
             a.tabs_link(href="index.html") Home
@@ -14,11 +17,71 @@ body.is-preload
         li.tabs_item
             a.tabs_link.activeTab(href="retreats-in-der-natur.html") Retreats in der Natur
         li.tabs_item
-            a.tabs_link(href="systematische-aufstellungen.html") Systematische Aufstellungen
+            a.tabs_link(href="systemische-aufstellungen.html") Systemische Aufstellungen
         li.tabs_item
             a.tabs_link(href="ayurvedische-ölungen-amnanda-therapie.html") Ayurvedische Ölungen - AMNANDA Therapie
         li.tabs_item
             a.tabs_link(href="kunsttherapeutische-begleitung.html") Individuelle kunsttherapeutische Begleitung
     #main
+        .box.alt.container
+            p
+                | Auf einer der westlichsten der Kanaren erleben wir die Urkräfte, die diese
+                | Inseln geschaffen hat, unmittelbar.
+                | Wir nutzen die ursprüngliche Kraft der Elemente an Kraftorten für Retreats, an
+                | denen wir uns regenerieren können und Innenschau betreiben.
+                | Die wilde geologische Struktur La Palmas mit einer Vielfalt von Landschaften
+                | lädt dazu ein.
+            p
+                | Sie findet sich in Form von Vulkanlandschaften im Süden über Pinienwälder bis zu
+                | felsigen Stränden an der Steilküste im Nordwesten der Insel.
+            #gallery1
+                a(data-fancybox="gallery1" href="img/retreats1.jpg")
+                    img(src="img/retreats1.jpg")
+
+                a(data-fancybox="gallery1" href="img/retreats2.jpg")
+                    img(src="img/retreats2.jpg")
+            p.topPMargin
+                | <b>Auf einer Visionquest werden dir begegnen:
+                | <br>- Innere Quelle der Kraft
+                | <br>- Feurige vulkanische Transformative Energien
+                | <br>- Erdende Kräfte, Felsformationen, Höhlen
+                | <br>- Wind und Wolken, Luftenergien, Geistige Helfer und andere Spirits
+                | <br>- Wasserkraft des Atlantiks, Wellen, Tiefe Gefühle, Brandung an's Ufer</b>
+            p
+                | Als Kunst- und Ausdruckstherapeutin und Traumatherapeutin setze ich unter anderen
+                | Trancetechniken, Ausdruckstanz, <b>kreative Traumatherapie und
+                | Systemische Aufstellungen als Methoden ein</b>.
+            p
+                | Ich habe in Deutschland Schwitzhütten geleitet und bin eine erfahrene Begleiterin auf der
+                | <b>Visionssuche</b>, ein schamanischer Weg und hilfreicher Türöffner zur Anderswelt.
+            #gallery3
+                a(data-fancybox href="img/retreats3.jpg")
+                    img(src="img/retreats3.jpg")
+            p.topPMargin
+                | Wir lernen unserer <b>Inneren Stimme und Inneren Bildern zu vertrauen</b>.
+                | Du lernst dabei Neu zu sehen und deiner ureigenen Wahrnehmung zu vertrauen.
+                | Oft haben wir diese Fähigkeit in unserer Anpassung an das „Normale“
+                | verlernt oder vergessen.
+            p
+                | Diese Prozessarbeit erfordert deine Bereitschaft dich auf Erfahrungen mit
+                | inneren Kräften, Schattenseiten und neuen Perspektiven auf dem Weg einzulassen.
+            p
+                | <b>Die neu gewonnenen Erfahrungen können ein Freiwerden von Lebensenergie und
+                | Freude bewirken, nachdem das, was uns in alten Mustern gefangen gehalten hat,
+                | gespürt und erlöst wurde.</b>
+            #gallery2
+                a(data-fancybox="gallery2" href="img/retreats4.jpg")
+                    img(src="img/retreats4.jpg")
+
+                a(data-fancybox="gallery2" href="img/retreats5.jpg")
+                    img(src="img/retreats5.jpg")
+
+                a(data-fancybox="gallery2" href="img/retreats6.jpg")
+                    img(src="img/retreats6.jpg")
+
     include includes/footer
+
 include includes/footer-js
+script(src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js")
+script(src="js/init-gallery-retreats.js")

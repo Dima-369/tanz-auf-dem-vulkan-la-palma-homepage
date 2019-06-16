@@ -7,7 +7,7 @@ template = '''
 '''
 
 # needs to start and end with /
-dirs_to_process = ['/img/placeholder/']
+dirs_to_process = ['/img/impressions/']
 
 cwd = os.getcwd()
 for d in dirs_to_process:
@@ -20,7 +20,7 @@ for d in dirs_to_process:
              f.name.endswith('.jpg')]
     for f in files:
         im = Image.open(f.path)
-        im.thumbnail((700, 700))
+        im.thumbnail((350, 350))
         im.save(f"{full_dir}thumbs/{f.name}")
         absolute_img = f.path[f.path.find('img/'):]
         thumb_img = absolute_img[absolute_img.find('img/'):] + 'thumbs/'

@@ -27,7 +27,7 @@ The responsive nav plugin was removed.
 	float: left;
 }
 
-@media screen and (min-width: 40em) {
+@media screen and (min-width: 48em) {
 	.tabs_item {
 		display: table-cell; /* [4] */
 		float: none;
@@ -79,5 +79,5 @@ The responsive nav plugin was removed.
 }
 
 .activeTab {
-	text-decoration: underline !important;
+	font-weight: bold !important;
 }
