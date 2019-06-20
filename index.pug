@@ -1,10 +1,11 @@
 doctype html
 head(lang="de")
     title Ulrike Kuhlmann - Tanz auf dem Vulkan La Palma
+    meta(name="description" content="Homepage mit Workshopangeboten von Maresch Ulrike Kuhlmann")
     include includes/head
     link(href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet")
     link(href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css" rel="stylesheet")
-body.is-preload
+body
     #header
         h1 Natur Seele Kunst
         p Retreats, Workshops, Kunst leben auf La Palma
@@ -28,7 +29,7 @@ body.is-preload
                 a.image(data-fancybox href="img/ulrike-kuhlmann1.jpg")
                     img(src='img/ulrike-kuhlmann1.jpg' alt="Ulrike Kuhlmann")
                 .content
-                    h3 Maresh Ulrike kuhlmann, geb. 1958
+                    h3 Maresch Ulrike Kuhlmann, geb. 1958
                     ul.defaultList
                         li Ergotherapeutin
                         li Kunst- und körperorientierte Ausdruckstherapeutin
@@ -38,8 +39,8 @@ body.is-preload
                         li Authentic Movement
                         li Begleitung von Retreats auf La Palma
             section.feature.right
-                a.image(data-fancybox href="img/ulrike-kuhlmann2.jpg")
-                    img(src='img/ulrike-kuhlmann2.jpg' alt="Ulrike Kuhlmann")
+                a.image(data-fancybox href="img/almendras.jpg")
+                    img(src='img/almendras.jpg' alt="Die Mandelblüten der Insel")
                 .content
                     h3
                         | Persönliches über Mich <br>
@@ -69,7 +70,29 @@ body.is-preload
                         tr
                             td ERDE
                             td.tableLeftPadding Höhlen, Barrancos, Fels
-        footer.major.container.medium.fullWidth
+        footer.major.container.medium.fullWidth.lessFooterMarginTop
+            h3 Gechannelte Bilder
+            #gallery2
+                // TODO: add thumbs
+                a(data-fancybox="gallery2" href="img/malen/1.jpg")
+                    img(src="img/malen/1.jpg")
+
+                a(data-fancybox="gallery2" href="img/malen/2.jpg")
+                    img(src="img/malen/2.jpg")
+
+                a(data-fancybox="gallery2" href="img/malen/3.jpg")
+                    img(src="img/malen/3.jpg")
+
+                a(data-fancybox="gallery2" href="img/malen/4.jpg")
+                    img(src="img/malen/4.jpg")
+
+                a(data-fancybox="gallery2" href="img/malen/5.jpg")
+                    img(src="img/malen/5.jpg")
+
+                a(data-fancybox="gallery2" href="img/malen/6.jpg")
+                    img(src="img/malen/6.jpg")
+
+        footer.major.container.medium.fullWidth.lessFooterMarginTop
             h3 Impressionen von La Palma
             #gallery
                 a(data-fancybox="gallery" href="img/impressions/imp17.jpg")
@@ -124,13 +147,10 @@ body.is-preload
                 a(data-fancybox="gallery" href="img/impressions/imp2.jpg")
                     img(src="img/impressions/thumbs/imp2.jpg")
 
-                a(data-fancybox="gallery" href="img/impressions/imp19.jpg")
-                    img(src="img/impressions/thumbs/imp19.jpg")
-
 
     include includes/footer
 
 include includes/footer-js
 script(src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js")
 script(src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js")
-script(src="js/init-gallery.js")
+script(src="js/init-gallery-index.js")

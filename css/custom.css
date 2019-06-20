@@ -54,6 +54,8 @@
 
 #header h1 {
 	word-break: break-word;
+	filter: drop-shadow(1px 1px 1px #111);
+	-webkit-filter: drop-shadow(1px 1px 1px #111);
 }
 
 #footer {
@@ -98,6 +100,10 @@ header.major:before {
 .feature .content h3 {
 	line-height: 1.25em;
 	margin-bottom: 1.5em;
+}
+
+.lessFooterMarginTop {
+	margin-top: 2.5em !important;
 }
 
 .tableLeftPadding {

@@ -1,8 +1,11 @@
 doctype html
 head(lang="de")
     title Ayurvedische Ölungen (AMNANDA Therapie) - Tanz auf dem Vulkan La Palma
+    meta(name="description" content="Informationen zu ayurvedischen Amnanda Ölungen")
     include includes/head
-body.is-preload
+    link(href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css" rel="stylesheet")
+body
     #header.headerAmnanda
         h1 Ayurvedische Ölungen
         p AMNANDA Therapie
@@ -22,7 +25,9 @@ body.is-preload
             a.tabs_link(href="kunsttherapeutische-begleitung.html") Individuelle kunsttherapeutische Begleitung
     #main
         .box.alt.container
-            p
+            a.image(data-fancybox href="img/from-unsplash/alan-caishan-1207495-unsplash-cropped.jpg")
+                img.fullWidth(src='img/from-unsplash/alan-caishan-1207495-unsplash-cropped.jpg')
+            p.topPMargin
                 | AMNANADA bedeutet in Sanskrit <b>Weg der Freude</b>
                 | und ist eine mehr als 300 Jahre alte von Mönchen in Asien erarbeitete
                 | Kur und Heilmethode, deren Ursprünge mehr als 2000 Jahre zurückliegen.
@@ -42,7 +47,10 @@ body.is-preload
                 | <br>Blockaden durch alte Verletzungen und negative Lebenserfahrungen
                 | fallen spürbar ab und Regeneration, Harmonisierung und Revitalisierung
                 | unseres gesamten Systems werden möglich.
-            p
+            #gallery
+                a(data-fancybox href="img/from-unsplash/artem-beliaikin-belart84-1396056-unsplash.jpg")
+                    img(src="img/from-unsplash/artem-beliaikin-belart84-1396056-unsplash.jpg")
+            p.topPMargin
                 | <b>Für wen ist die Kur geeignet ?
                 | <br>Wenn Sie schwere Belastungen für Körper und Geist erlebt haben und nun
                 | regenerieren möchten.</b>
@@ -72,5 +80,15 @@ body.is-preload
                 | biologischem Anbau.
             p
                 | Infos unter: <a href="https://www.amnanda.eu">www.amnanda.eu</a>
+
+            #gallery2
+                a(data-fancybox href="img/from-unsplash/chelsea-shapouri-1555571-unsplash.jpg")
+                    img(src="img/from-unsplash/chelsea-shapouri-1555571-unsplash.jpg")
+
+                a(data-fancybox href="img/from-unsplash/deniz-altindas-38128-unsplash.jpg")
+                    img(src="img/from-unsplash/deniz-altindas-38128-unsplash.jpg")
     include includes/footer
 include includes/footer-js
+script(src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js")
+script(src="js/init-gallery-amnanda.js")
