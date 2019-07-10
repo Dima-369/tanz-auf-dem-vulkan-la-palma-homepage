@@ -126,6 +126,16 @@ header.major:before {
 	list-style: initial;
 }
 
+h2 {
+	text-align: left !important;
+	margin-top: 3em;
+	letter-spacing: 0.09em;
+}
+
+.noTopMargin {
+	margin-top: 0;
+}
+
 table {
 	width: initial;
 	margin: 0 auto !important;
