@@ -81,3 +81,15 @@ The responsive nav plugin was removed.
 .activeTab {
 	font-weight: bold !important;
 }
+
+#header h1 {
+	word-break: break-word;
+	filter: drop-shadow(1px 1px 1px #111);
+	-webkit-filter: drop-shadow(1px 1px 1px #111);
+}
+
+#header p {
+	word-break: break-word;
+	filter: drop-shadow(1px 1px 1px #000);
+	-webkit-filter: drop-shadow(1px 1px 1px #000);
+}
