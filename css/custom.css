@@ -45,6 +45,13 @@
 	background-color: #5575b9;
 }
 
+.headerChanneling {
+	background-image: url("../directive-template/css/images/top-3200.svg"),
+	url("../directive-template/css/images/overlay.png"),
+	url("../img/header-channeling.jpg") !important;
+	background-color: #5575b9;
+}
+
 .headerKunst {
 	background-image: url("../directive-template/css/images/top-3200.svg"),
 	url("../directive-template/css/images/overlay.png"),
@@ -147,6 +154,32 @@ input[type="submit"], input[type="reset"], input[type="button"], .button {
 #footer {
 	padding-left: 1.5em;
 	padding-right: 1.5em;
+}
+
+.firstHeading {
+	margin-top: 0;
+}
+
+.ulStyle {
+	margin-left: 1em;
+	list-style: outside;
+}
+
+.liTopMargin {
+	margin-top: 2em;
+}
+
+.impressum {
+	margin-top: 4em;
+}
+
+#impressumLink {
+	color: rgba(255, 255, 255, 0.5);
+	border-bottom: none;
+}
+
+#impressumLink:hover {
+	color: rgba(255, 255, 255, 1.0);
 }
 
 @media screen and (min-width: 737px) {

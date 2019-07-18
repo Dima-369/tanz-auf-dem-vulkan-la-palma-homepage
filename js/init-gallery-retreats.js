@@ -5,5 +5,5 @@ $('#gallery2').justifiedGallery({
 	rowHeight: 400,
 });
 $('#gallery3').justifiedGallery({
-	rowHeight: 350,
+	rowHeight: 450,
 });

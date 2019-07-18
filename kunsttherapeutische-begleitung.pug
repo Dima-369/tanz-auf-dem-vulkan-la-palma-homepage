@@ -1,11 +1,16 @@
 doctype html
 head(lang="de")
-    title Individuelle kunsttherapeutische Begleitung - Tanz auf dem Vulkan La Palma
+    title Kunsttherapie für Einzelsessions oder Gruppen - Tanz auf dem Vulkan La Palma
     meta(name="description" content="Kunsttherapeutisches Angebot von Maresch Ulrike Kuhlmann")
     include includes/head
+    link(href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" rel="stylesheet")
+    link(href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/css/justifiedGallery.min.css" rel="stylesheet")
 body
     #header.headerKunst
-        h1 Individuelle kunsttherapeutische Begleitung
+        h1 Kunsttherapie<br>Einzelsessions und Gruppen
+        p.
+            La Palma entdecken
+            <br>Kunstreisen: Wandern, Rituale, Kunst
     ul.tabs.primary-nav.homeNav
         li.tabs_item
             a.tabs_link(href="index.html") Home
@@ -19,7 +24,85 @@ body
         li.tabs_item
             a.tabs_link(href="ayurvedische-ölungen-amnanda-therapie.html") Ayurvedische Ölungen - AMNANDA Therapie
         li.tabs_item
-            a.tabs_link.activeTab(href="kunsttherapeutische-begleitung.html") Individuelle kunsttherapeutische Begleitung
+            a.tabs_link(href="mediales-coaching-und-channeling.html") Mediales Coaching und Channeling
+        li.tabs_item
+            a.tabs_link.activeTab(href="kunsttherapeutische-begleitung.html") Kunsttherapie<br>Einzelsessions und Gruppen
     #main
+        .box.alt.container
+            h2.firstHeading.
+                Kraftorte für Rituale und zur Inspiration für künstlerische Prozesse nutzen
+            p.
+                La Palma bietet vielfältige Landschaften, die wir gemeinsam erwandern und
+                künstlerisch erleben werden, beim Wandern und Aquarell malen.
+                Auf Ausflügen zu den Vulkanen des Südens über Wanderungen durch Pinienwälder und zu
+                den Stränden an der Steilküste lernst du die Vielseitigkeit der Natur kennen.
+                Ein einzigartiges Erlebnis ist die Besteigung des Roque de los Muchachos im
+                Nordwesten La Palmas.
+
+            #gallery1
+                a(data-fancybox="gallery1" href="img/kunst1.jpg")
+                    img(src="img/kunst1.jpg")
+
+            p.topPMargin.
+                Auf Wunsch vermittele ich die Unterbringung in einem palmerischen Ferienhaus.
+                Daneben gibt es die Möglichkeit in einfachen Bambuszelten mit Komposttoilette und
+                Außendusche in Tijarafe auf einem Naturcampinggelände zu übernachten.
+            p.
+                Im Süden ist die feurige vulkanische Energie am ältesten Vulkan, dem Teneguía,
+                auf einer schamanischen Trommelreise als Pulsschlag zu spüren.
+            p.
+                In den Höhlen des Nordens sind wir umgeben von erdenden Kräften; eine Begegnung mit
+                der inneren Drachin wird möglich. Auf Wanderungen in den Zauberwald La Zarza und zu
+                den Petroglyphen, in Fels geritzte Symbole der Ureinwohner La Palmas, den Guanchen.
+                Die Wasserkraft des Atlantiks erleben wir an der Piratenbucht in
+                Tijarafe und Playa la Veta.
+
+            #gallery2
+                a(data-fancybox="gallery2" href="img/kunst2.jpg")
+                    img(src="img/kunst2.jpg")
+
+            p.topPMargin.
+                Termine und Infos unter:
+                <br>Ulrike Kuhlmann
+                <br>Email: <a href="mailto:venusorakel@yahoo.de">venusorakel@yahoo.de</a>
+                <br>WhatsApp: +34 638 792 926
+            p.
+                <b>Über mich:</b>
+                <br>Ulrike Kuhlmann, Jahrgang 1958
+            p.
+                Als zertifizierte Kunst- und Ausdruckstherapeutin, Traumatherapeutin und
+                selbständige Ergotherapeutin begleite ich euch kompetent und empathisch.
+                Ich lebe seit 2012 fest auf dieser wunderschönen Insel La Palma.
+            p.
+                <b>Weitere Retreats und Kunstreisen:</b>
+                <br>- Im Oktober 2019, und von Januar – Februar 2020 und auf Anfrage.
+            p.
+                Kosten für 7 tägiges RETREAT und Künstlerisch Reisen:
+            ul.ulStyle
+                li.
+                    Begrenzte Teilnehmerzahl, frühzeitige Buchung auch der Flüge ist sinnvoll.
+                li.
+                    460€ plus 80€ für gemeinsam Kochen einer vollwertigen vegetarischen warmen
+                    Mahlzeit jeden Tag, inklusive einer einfachen Unterbringung in Bambuszelten
+                li.
+                    Deine/Ihre Anmeldung ist verbindlich bei Anzahlung von 200€
+            p.b.
+                Auf Wunsch biete ich als Extraleistung <b>ayurvedische Einölungen</b> und
+                <b>HotStone-Massagen</b> an.
+            p.
+                Auf Wunsch organisiere ich den
+                <b>Transfer vom/zum Flughafen Santa Cruz de La Palma</b>
+                und helfe bei der Organisation der Flüge.
+
+            #gallery3
+                a(data-fancybox="gallery3" href="img/kunst3.jpg")
+                    img(src="img/kunst3.jpg")
+
+                a(data-fancybox="gallery3" href="img/kunst4.jpg")
+                    img(src="img/kunst4.jpg")
+
     include includes/footer
 include includes/footer-js
+script(src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js")
+script(src="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.7.0/js/jquery.justifiedGallery.min.js")
+script(src="js/init-gallery-kunst.js")

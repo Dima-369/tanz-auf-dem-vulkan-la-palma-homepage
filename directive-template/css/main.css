@@ -2687,7 +2687,7 @@ input[type="button"].small,
 	background-position: bottom center, top left, center center;
 	background-repeat: repeat-x, repeat, no-repeat;
 	background-size: 3200px 460px, auto, cover;
-	color: rgba(255, 255, 255, 0.8);
+	color: #fff;
 	padding: 10em 0 20em 0;
 	position: relative;
 	text-align: center;
@@ -2799,10 +2799,6 @@ input[type="button"].small,
 	top: 0;
 	width: 1px;
 	z-index: 0;
-}
-
-#footer a {
-	color: #ffffff;
 }
 
 #footer strong, #footer b {
